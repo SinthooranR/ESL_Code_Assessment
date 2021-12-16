@@ -1,0 +1,41 @@
+.RoundPanel {
+  margin-bottom: 0.25rem;
+  padding: 1rem;
+  background-color: white;
+  .Time {
+    text-align: left;
+    color: lightgray;
+  }
+
+  p {
+    margin-bottom: 0;
+    font-size: 1.05rem;
+  }
+  p:nth-child(2) {
+    font-size: 1.25rem;
+  }
+
+  div {
+    display: flex;
+    justify-content: space-between;
+    p:first-child {
+      padding-left: 1rem;
+      border-radius: 2.5px;
+    }
+  }
+
+  .WinnerPanel {
+    p:first-child {
+      border-left: 5px solid green;
+    }
+    p:nth-child(2) {
+      font-weight: bold;
+    }
+  }
+
+  .AttemptPanel {
+    p:first-child {
+      border-left: 5px solid red;
+    }
+  }
+}
